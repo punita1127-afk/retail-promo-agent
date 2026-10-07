@@ -1,0 +1,4 @@
+segment_id,name,size_pct,price_sensitivity,preferred_categories,avg_basket_size,discount_response_multiplier
+SEG01,Budget Shoppers,40,High,Produce|Dairy|Household,350,2.1
+SEG02,Brand Loyalists,35,Low,Personal Care|Beverages|Snacks,780,1.3
+SEG03,Premium Seekers,25,Medium,Dairy|Bakery|Frozen,1200,1.6

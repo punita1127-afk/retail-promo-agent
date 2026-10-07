@@ -1,0 +1,132 @@
+{
+  "simulations": [
+    {
+      "product_id": 1002,
+      "product_name": "Orange Juice 1L",
+      "discount_pct": 33.8,
+      "discounted_price": 154.5,
+      "new_margin_pct": 12.5,
+      "volume_lift_pct": 9.9,
+      "baseline_units": 294.1,
+      "promo_units": 323.3,
+      "baseline_revenue": 68641.18,
+      "promo_revenue": 49955.97,
+      "revenue_delta": -18685.21,
+      "margin_delta": -22658.17,
+      "risk_flags": [
+        "\u26a0\ufe0f Margin 12.5% falls below floor of 14.2%"
+      ],
+      "recommendation": "REVIEW"
+    },
+    {
+      "product_id": 1006,
+      "product_name": "Coffee Blend 200g",
+      "discount_pct": 37.0,
+      "discounted_price": 162.25,
+      "new_margin_pct": 9.4,
+      "volume_lift_pct": 12.1,
+      "baseline_units": 223.9,
+      "promo_units": 251.0,
+      "baseline_revenue": 57663.39,
+      "promo_revenue": 40731.32,
+      "revenue_delta": -16932.07,
+      "margin_delta": -20906.67,
+      "risk_flags": [
+        "\u26a0\ufe0f Margin 9.4% falls below floor of 10.4%"
+      ],
+      "recommendation": "REVIEW"
+    },
+    {
+      "product_id": 1008,
+      "product_name": "Chocolate Bar 100g",
+      "discount_pct": 30.9,
+      "discounted_price": 174.95,
+      "new_margin_pct": 11.9,
+      "volume_lift_pct": 18.7,
+      "baseline_units": 336.0,
+      "promo_units": 398.8,
+      "baseline_revenue": 85071.84,
+      "promo_revenue": 69770.5,
+      "revenue_delta": -15301.34,
+      "margin_delta": -24934.59,
+      "risk_flags": [
+        "\u26a0\ufe0f Margin 11.9% falls below floor of 13.6%"
+      ],
+      "recommendation": "REVIEW"
+    },
+    {
+      "product_id": 1009,
+      "product_name": "Granola Bar 40g",
+      "discount_pct": 49.0,
+      "discounted_price": 111.97,
+      "new_margin_pct": 9.7,
+      "volume_lift_pct": 25.4,
+      "baseline_units": 84.0,
+      "promo_units": 105.3,
+      "baseline_revenue": 18436.77,
+      "promo_revenue": 11792.58,
+      "revenue_delta": -6644.19,
+      "margin_delta": -8798.87,
+      "risk_flags": [
+        "\u26a0\ufe0f Margin 9.7% falls below floor of 10.6%"
+      ],
+      "recommendation": "REVIEW"
+    },
+    {
+      "product_id": 1010,
+      "product_name": "Popcorn 80g",
+      "discount_pct": 14.15,
+      "discounted_price": 215.12,
+      "new_margin_pct": 29.8,
+      "volume_lift_pct": 7.5,
+      "baseline_units": 180.0,
+      "promo_units": 193.5,
+      "baseline_revenue": 45104.4,
+      "promo_revenue": 41633.22,
+      "revenue_delta": -3471.18,
+      "margin_delta": -5496.59,
+      "risk_flags": [
+        "\u26a0\ufe0f Demand may exceed available stock before promo ends"
+      ],
+      "recommendation": "REVIEW"
+    },
+    {
+      "product_id": 1015,
+      "product_name": "Cheddar Cheese 250g",
+      "discount_pct": 39.1,
+      "discounted_price": 42.64,
+      "new_margin_pct": 8.3,
+      "volume_lift_pct": 17.0,
+      "baseline_units": 237.8,
+      "promo_units": 278.2,
+      "baseline_revenue": 16649.81,
+      "promo_revenue": 11863.16,
+      "revenue_delta": -4786.65,
+      "margin_delta": -6372.55,
+      "risk_flags": [
+        "\u26a0\ufe0f Margin 8.3% falls below floor of 9.1%",
+        "\u26a0\ufe0f Demand may exceed available stock before promo ends"
+      ],
+      "recommendation": "REVIEW"
+    },
+    {
+      "product_id": 1017,
+      "product_name": "Cottage Cheese 400g",
+      "discount_pct": 40.9,
+      "discounted_price": 167.88,
+      "new_margin_pct": 8.7,
+      "volume_lift_pct": 10.9,
+      "baseline_units": 406.8,
+      "promo_units": 451.2,
+      "baseline_revenue": 115550.24,
+      "promo_revenue": 75739.31,
+      "revenue_delta": -39810.93,
+      "margin_delta": -46566.52,
+      "risk_flags": [
+        "\u26a0\ufe0f Margin 8.7% falls below floor of 9.6%"
+      ],
+      "recommendation": "REVIEW"
+    }
+  ],
+  "executive_summary": "The current promotional strategy has resulted in a total revenue loss of $101,932.57, with the primary risk being that deep discounts (ranging from 14% to 49%) are eroding margins without generating sufficient volume to offset the price cuts. I recommend immediately reviewing and halting the promotions on Cottage Cheese 400g and Orange Juice 1L, which account for the largest share of the negative revenue delta, to stop the financial bleed."
+}
